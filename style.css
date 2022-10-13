@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: ease-in 0.5s;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2c2c2c;
+    height: 100px;
+    transition: ease-in 0.5s;
+    z-index: 9999;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+.hide{
+    margin-top: -100px;
+}
+
+img{
+    cursor: pointer;
+    width: 125px;
+}
+
+.nav-links{
+    transition: ease-in 0.5s;
+}
+
+.nav-links ul li{
+    display: inline;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    transition: ease-in 0.5s;
+    text-transform: uppercase;
+    font-family: 'Koulen', cursive;
+}
+
+.nav-links ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.main i{
+    color: #fff;
+    font-size: 30px;
+}
+
+/*hero*/
+
+.hero{
+    background-image: url(images/BG.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
+
+.hero-caption{
+    padding-top: 570px;
+    color: #fff;
+    font-family: 'Koulen', cursive;
+}
+
+.hero-caption h1{
+    font-size: 115px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.hero-caption p{
+    font-size: 38px;
+    font-family: 'Open Sans', sans-serif;
+    width: 715px;
+}
+
+.hero-caption button{
+    background-color: #ff6309;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 30px;
+    height: 60px;
+    margin-top: 20px;
+    width: 380px;
+}
+
+/*hero*/
+
+/*dance-tour*/
+.dance-tour{
+    background-color: #ff6309;
+    font-family: 'Koulen', cursive;
+    color: #fff;
+    height: 950px;
+}
+.dance-tour h1{
+    font-size: 70px;
+    padding-top: 100px;
+}
+
+.dance-tour p{
+    font-size: 38px;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    width: 1000px;
+}
+
+.dance-tour-images{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.dance-tour-images img{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 400px;
+}
+
+.image{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}    
+.images-caption{
+    background-color: #2c2c2c;
+    height: 180px;
+    width: 400px;
+}
+
+.images-caption h1{
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.images-caption p{
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    width: 400px;
+}
+/*dance-tour*/
+
+/*pricing*/
+.pricing{
+    background-color: #2c2c2c;
+    font-family: 'Koulen', cursive;
+    color: #fff;
+    height: 950px;
+}
+
+
+
+/*pricing*/
+
+@media (min-width: 1500px) {
+.hero{
+    background-image: url(images/BG.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1052px;
+}
+}
+@media (min-width: 1500px){
+.container {
+    max-width: 1500px!important;
+}
+}
